@@ -4,6 +4,9 @@ body{
 	background: #eee;
 }
 
+.dark{background: #4b7399;}
+.light{background: #eae9d2}
+
 .box {
   margin: 50px auto;
 width: 842px;
@@ -12,7 +15,7 @@ width: 842px;
 }
 
 .box .board{
-	float: left;
+	float: ;
 	width: 512px;
 	height: 512px;
 	}

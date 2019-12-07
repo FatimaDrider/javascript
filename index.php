@@ -1,19 +1,23 @@
-CTYPE html>
+<DOCTYPE html>
 <html lang="pt-BR">
 <head>
-	<meta charset="utf-8">fatima
-	
-	<link rel="stylesheet" type="text/css" href="">
+	<meta charset="utf-8">
 <title>Hello fatima</title>
+	<link rel="stylesheet" type="" href="index.css">
+
 </head>
 <body>
+	
 <div class="box">
+
 	<div class="board"></div>
 	<div class="stats"></div>
+	<div style="clear:both;"></div>
 </div>
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script type="text/javascript" src="js/test.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="dama.js"></script>
 
 
 </body>
