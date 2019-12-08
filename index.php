@@ -11,7 +11,12 @@
 <div class="box">
 
 	<div class="board"></div>
-	<div class="stats"></div>
+	<div class="stats">
+			<div class="player"></div>
+	<div class="notation"></div>
+		<div class=""></div>
+
+	</div>
 	<div style="clear:both;"></div>
 </div>
 

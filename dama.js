@@ -38,7 +38,36 @@ var initialPosition ={
 
 };
 
+var colums= {};
+colums[0] ='a';
+colums[1] ='b';
+colums[2] ='c';
+colums[3] ='d';
+colums[4] ='e';
+colums[5] ='f';
+colums[6] ='g';
+colums[7] ='h';
+var mate = false;
+//var moveskings= {'black'}
+var movepecaCheck ={};
+var checking = false;
+var jagodor = 'white';
+var vezdo = 'white';
+var clicou =0;
+var pecaEscolhida = '';
+var ultimaCasaEscolhida= "";
 
+$('body').on('click','.pece',function(){
+
+	var classe = $(this).attr('class');
+var casa =$(this).parent();
+var casaId = casa.attr('id');
+alert('classe');
+
+
+
+
+});
 function newgame(){
 	$('.square-board').each(function(){
 		var square = $(this);
